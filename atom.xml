@@ -6,7 +6,7 @@
   <link href="https://roverkai.github.io/atom.xml" rel="self"/>
   
   <link href="https://roverkai.github.io/"/>
-  <updated>2025-07-24T12:51:21.204Z</updated>
+  <updated>2025-07-25T13:07:05.790Z</updated>
   <id>https://roverkai.github.io/</id>
   
   <author>
@@ -15,6 +15,31 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>学习计划</title>
+    <link href="https://roverkai.github.io/2025/07/25/%E5%AD%A6%E4%B9%A0%E8%AE%A1%E5%88%92/"/>
+    <id>https://roverkai.github.io/2025/07/25/%E5%AD%A6%E4%B9%A0%E8%AE%A1%E5%88%92/</id>
+    <published>2025-07-25T12:06:58.000Z</published>
+    <updated>2025-07-25T13:07:05.790Z</updated>
+    
+    <content type="html"><![CDATA[<ul><li><input checked="" disabled="" type="checkbox"> Redis<ul><li><input checked="" disabled="" type="checkbox"> 过期与淘汰策略</li><li><input checked="" disabled="" type="checkbox"> 缓存穿透&#x2F;击穿&#x2F;雪崩防护<ul><li><input checked="" disabled="" type="checkbox"> 布隆过滤器</li><li><input checked="" disabled="" type="checkbox"> 互斥锁</li><li><input checked="" disabled="" type="checkbox"> 降级</li></ul></li><li><input disabled="" type="checkbox"> 主从复制+哨兵+集群</li></ul></li><li><input disabled="" type="checkbox"> Kafka</li><li><input disabled="" type="checkbox"> 并发编程</li><li><input disabled="" type="checkbox"> jvm</li></ul>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;ul&gt;
+&lt;li&gt;&lt;input checked=&quot;&quot; disabled=&quot;&quot; type=&quot;checkbox&quot;&gt; Redis&lt;ul&gt;
+&lt;li&gt;&lt;input checked=&quot;&quot; disabled=&quot;&quot; type=&quot;checkbox&quot;&gt; 过期与淘汰策略&lt;/li&gt;
+&lt;li&gt;&lt;input</summary>
+      
+    
+    
+    
+    
+    <category term="计划" scheme="https://roverkai.github.io/tags/%E8%AE%A1%E5%88%92/"/>
+    
+  </entry>
   
   <entry>
     <title>山中行-李健</title>
