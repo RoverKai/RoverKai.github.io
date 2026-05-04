@@ -6,7 +6,7 @@
   <link href="https://roverkai.github.io/atom.xml" rel="self"/>
   
   <link href="https://roverkai.github.io/"/>
-  <updated>2025-10-25T08:24:02.686Z</updated>
+  <updated>2026-05-04T13:04:48.646Z</updated>
   <id>https://roverkai.github.io/</id>
   
   <author>
@@ -15,6 +15,50 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>无题</title>
+    <link href="https://roverkai.github.io/2026/05/04/%E6%97%A0%E9%A2%98/"/>
+    <id>https://roverkai.github.io/2026/05/04/%E6%97%A0%E9%A2%98/</id>
+    <published>2026-05-04T12:33:52.000Z</published>
+    <updated>2026-05-04T13:04:48.646Z</updated>
+    
+    <content type="html"><![CDATA[<p>好久没有发博客了，这几个月经历了很多，现在来一一回顾一下。</p><p>​我谈了个女朋友，我很喜欢她。</p><p>​我找了人生中第一份工作，三千块，朝九晚六，但是迟到半个小时都没有关系，还提供免费的零食饮料，老板娘每天还会买一些好吃的主动给我们吃，可能是看我们从来没有拿过零食……还有咖啡、制冰机。每天可以准时下班，而且不用开奇奇怪怪的会，总而言之，作为我的第一份工作我很满意。</p><p>​现在汇望系统也差不多快可以上线了，昨天刚对接上了微信的消息推送功能。以前接这个项目的时候觉得很简单，对一个接口而已，其他就用若依框架的代码生成功能很快就能写完。现在看来还有很多值得我的深入研究的地方。比如微信支付分为两个大块，一个是普通的V3接口，另一个是B2B接口，这两个支付接口是互不相干的，V3接口有自己的支付通知回调，但是B2B支付的回调通知竟然是用的消息推送接口。而且你在前期不了解这些的情况下他们会把开通B2B的公告放在微信小程序开放平台的首屏，引导你去开通B2B功能，真的很难绷啊。还有一点B2B接口的文档很烂，开发的时候踩了很多坑，一个文档找不到就得浪费一天时间上网搜。</p><p>​关于学校竞赛的事情就不说了，都是泪。哈哈哈哈哈哈哈哈哈哈当初要是没有选择竞赛专升本而是统考专升本是不是会更好？我的技术是不是会比现在强上很多？我也不知道。我知道的是我很满意当前的状态。</p><p>​未来的规划：汇望这个项目预计这个月可以交付上线。完成之后这便是我的第一个上线的项目。等汇望交付之后，下一步就是研究AI集成开发，什么RAG啊向量数据库啊对我来说都是新鲜玩意，都挺感兴趣的，学会之后就需要集成进我司的项目当中了。然后到了六七月份差不多就可以完结这个公司所需要的所有开发，等稳定之后老板估计也不会留我了，那个时候就可以动身出发深圳，开始我的新人生！哈哈哈哈哈哈哈哈哈哈。</p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;好久没有发博客了，这几个月经历了很多，现在来一一回顾一下。&lt;/p&gt;
+&lt;p&gt;​	我谈了个女朋友，我很喜欢她。&lt;/p&gt;
+&lt;p&gt;​	我找了人生中第一份工作，三千块，朝九晚六，但是迟到半个小时都没有关系，还提供免费的零食饮料，老板娘每天还会买一些好吃的主动给我们吃，可能是看我们从来</summary>
+      
+    
+    
+    
+    
+    <category term="日记" scheme="https://roverkai.github.io/tags/%E6%97%A5%E8%AE%B0/"/>
+    
+  </entry>
+  
+  <entry>
+    <title></title>
+    <link href="https://roverkai.github.io/2025/10/25/Joyagentdata-agent%EF%BC%88%E8%88%92%E6%9C%8D%E5%AD%A6%E4%B9%A0%E7%89%88%EF%BC%89/"/>
+    <id>https://roverkai.github.io/2025/10/25/Joyagentdata-agent%EF%BC%88%E8%88%92%E6%9C%8D%E5%AD%A6%E4%B9%A0%E7%89%88%EF%BC%89/</id>
+    <published>2025-10-25T07:05:14.755Z</published>
+    <updated>2025-10-28T07:05:39.552Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="Joyagent-data-agent（舒服学习版）"><a href="#Joyagent-data-agent（舒服学习版）" class="headerlink" title="Joyagent:data-agent（舒服学习版）"></a>Joyagent:data-agent（舒服学习版）</h1><h2 id="智能问数：-data-chatQuery"><a href="#智能问数：-data-chatQuery" class="headerlink" title="智能问数： &#x2F;data&#x2F;chatQuery"></a>智能问数： &#x2F;data&#x2F;chatQuery</h2><figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">public</span> SseEmitter <span class="title function_">webChatQueryData</span><span class="params">(DataAgentChatReq req)</span> <span class="keyword">throws</span> Exception &#123;</span><br><span class="line">    <span class="type">SseEmitter</span> <span class="variable">emitter</span> <span class="operator">=</span> <span class="keyword">new</span> <span class="title class_">SseEmitter</span>(AUTO_AGENT_SSE_TIMEOUT);</span><br><span class="line">    <span class="comment">// 获取NL2SQL请求</span></span><br><span class="line">    <span class="type">NL2SQLReq</span> <span class="variable">baseNl2SqlReq</span> <span class="operator">=</span> getBaseNl2SqlReq(req.getContent());</span><br><span class="line">    baseNl2SqlReq.setRequestId(UUID.randomUUID().toString());</span><br><span class="line">    baseNl2SqlReq.setTraceId(baseNl2SqlReq.getRequestId());</span><br><span class="line">    baseNl2SqlReq.setDbType(dataAgentConfig.getDbConfig().getType());</span><br><span class="line">    <span class="comment">// 发送状态消息</span></span><br><span class="line">    enrichNl2Sql(baseNl2SqlReq);</span><br><span class="line">    emitter.send(ChatDataMessage.ofStatus(EventTypeEnum.DEBUG.name(), baseNl2SqlReq.getRequestId()));</span><br><span class="line">    <span class="comment">// 执行NL2SQL</span></span><br><span class="line">    ThreadUtil.execute(() -&gt; &#123;</span><br><span class="line">        <span class="keyword">try</span> &#123;</span><br><span class="line">            List&lt;ChatQueryData&gt; result = nl2SqlService.runNL2SQLSse(baseNl2SqlReq, emitter);</span><br><span class="line">            emitter.send(ChatDataMessage.ofData(result));</span><br><span class="line">        &#125; <span class="keyword">catch</span> (Exception e) &#123;</span><br><span class="line">            log.error(<span class="string">&quot;&#123;&#125;,&#123;&#125; 智能问数异常：&#123;&#125;&quot;</span>, baseNl2SqlReq.getTraceId(), baseNl2SqlReq.getRequestId(), e.getMessage(), e);</span><br><span class="line">            <span class="keyword">try</span> &#123;</span><br><span class="line">                emitter.send(ChatDataMessage.ofError(e.getMessage()));</span><br><span class="line">            &#125; <span class="keyword">catch</span> (IOException ex) &#123;</span><br><span class="line">                log.warn(<span class="string">&quot;&#123;&#125;,&#123;&#125; sse 发送异常：&#123;&#125;&quot;</span>, baseNl2SqlReq.getTraceId(), baseNl2SqlReq.getRequestId(), e.getMessage(), e);</span><br><span class="line">            &#125;</span><br><span class="line">        &#125; <span class="keyword">finally</span> &#123;</span><br><span class="line">            <span class="keyword">try</span> &#123;</span><br><span class="line">                emitter.send(ChatDataMessage.ofReady(<span class="string">&quot;&quot;</span>));</span><br><span class="line">            &#125; <span class="keyword">catch</span> (IOException e) &#123;</span><br><span class="line">                log.warn(<span class="string">&quot;&#123;&#125;,&#123;&#125; sse 发送异常：&#123;&#125;&quot;</span>, baseNl2SqlReq.getTraceId(), baseNl2SqlReq.getRequestId(), e.getMessage(), e);</span><br><span class="line">            &#125;</span><br><span class="line">            emitter.complete();</span><br><span class="line">        &#125;</span><br><span class="line">    &#125;);</span><br><span class="line"></span><br><span class="line">    <span class="keyword">return</span> emitter;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure><p>核心功能： getBaseNl2SqlReq()</p><h2 id="其他模式：-web-api-v1-gpt-queryAgentStreamIncr"><a href="#其他模式：-web-api-v1-gpt-queryAgentStreamIncr" class="headerlink" title="其他模式： &#x2F;web&#x2F;api&#x2F;v1&#x2F;gpt&#x2F;queryAgentStreamIncr"></a>其他模式： &#x2F;web&#x2F;api&#x2F;v1&#x2F;gpt&#x2F;queryAgentStreamIncr</h2>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;h1 id=&quot;Joyagent-data-agent（舒服学习版）&quot;&gt;&lt;a href=&quot;#Joyagent-data-agent（舒服学习版）&quot; class=&quot;headerlink&quot; title=&quot;Joyagent:data-agent（舒服学习版）&quot;&gt;&lt;/a&gt;Joyagent</summary>
+      
+    
+    
+    
+    
+  </entry>
   
   <entry>
     <title>JVM参数设置</title>
@@ -31,28 +75,6 @@
     <summary type="html">&lt;ol&gt;
 &lt;li&gt;&lt;p&gt;标准参数（Standard Options）：&lt;/p&gt;
 &lt;figure class=&quot;highlight diff&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;sp</summary>
-      
-    
-    
-    
-    
-    <category term="doc" scheme="https://roverkai.github.io/tags/doc/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Joyagent:data-agent（舒服学习版）</title>
-    <link href="https://roverkai.github.io/2025/10/23/Joyagentdata-agent%EF%BC%88%E8%88%92%E6%9C%8D%E5%AD%A6%E4%B9%A0%E7%89%88%EF%BC%89/"/>
-    <id>https://roverkai.github.io/2025/10/23/Joyagentdata-agent%EF%BC%88%E8%88%92%E6%9C%8D%E5%AD%A6%E4%B9%A0%E7%89%88%EF%BC%89/</id>
-    <published>2025-10-23T12:33:16.000Z</published>
-    <updated>2025-10-25T08:23:36.672Z</updated>
-    
-    <content type="html"><![CDATA[<h2 id="智能问数：-data-chatQuery"><a href="#智能问数：-data-chatQuery" class="headerlink" title="智能问数： &#x2F;data&#x2F;chatQuery"></a>智能问数： &#x2F;data&#x2F;chatQuery</h2><figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">public</span> SseEmitter <span class="title function_">webChatQueryData</span><span class="params">(DataAgentChatReq req)</span> <span class="keyword">throws</span> Exception &#123;</span><br><span class="line">    <span class="type">SseEmitter</span> <span class="variable">emitter</span> <span class="operator">=</span> <span class="keyword">new</span> <span class="title class_">SseEmitter</span>(AUTO_AGENT_SSE_TIMEOUT);</span><br><span class="line">    <span class="comment">// 获取NL2SQL请求</span></span><br><span class="line">    <span class="type">NL2SQLReq</span> <span class="variable">baseNl2SqlReq</span> <span class="operator">=</span> getBaseNl2SqlReq(req.getContent());</span><br><span class="line">    baseNl2SqlReq.setRequestId(UUID.randomUUID().toString());</span><br><span class="line">    baseNl2SqlReq.setTraceId(baseNl2SqlReq.getRequestId());</span><br><span class="line">    baseNl2SqlReq.setDbType(dataAgentConfig.getDbConfig().getType());</span><br><span class="line">    <span class="comment">// 发送状态消息</span></span><br><span class="line">    enrichNl2Sql(baseNl2SqlReq);</span><br><span class="line">    emitter.send(ChatDataMessage.ofStatus(EventTypeEnum.DEBUG.name(), baseNl2SqlReq.getRequestId()));</span><br><span class="line">    <span class="comment">// 执行NL2SQL</span></span><br><span class="line">    ThreadUtil.execute(() -&gt; &#123;</span><br><span class="line">        <span class="keyword">try</span> &#123;</span><br><span class="line">            List&lt;ChatQueryData&gt; result = nl2SqlService.runNL2SQLSse(baseNl2SqlReq, emitter);</span><br><span class="line">            emitter.send(ChatDataMessage.ofData(result));</span><br><span class="line">        &#125; <span class="keyword">catch</span> (Exception e) &#123;</span><br><span class="line">            log.error(<span class="string">&quot;&#123;&#125;,&#123;&#125; 智能问数异常：&#123;&#125;&quot;</span>, baseNl2SqlReq.getTraceId(), baseNl2SqlReq.getRequestId(), e.getMessage(), e);</span><br><span class="line">            <span class="keyword">try</span> &#123;</span><br><span class="line">                emitter.send(ChatDataMessage.ofError(e.getMessage()));</span><br><span class="line">            &#125; <span class="keyword">catch</span> (IOException ex) &#123;</span><br><span class="line">                log.warn(<span class="string">&quot;&#123;&#125;,&#123;&#125; sse 发送异常：&#123;&#125;&quot;</span>, baseNl2SqlReq.getTraceId(), baseNl2SqlReq.getRequestId(), e.getMessage(), e);</span><br><span class="line">            &#125;</span><br><span class="line">        &#125; <span class="keyword">finally</span> &#123;</span><br><span class="line">            <span class="keyword">try</span> &#123;</span><br><span class="line">                emitter.send(ChatDataMessage.ofReady(<span class="string">&quot;&quot;</span>));</span><br><span class="line">            &#125; <span class="keyword">catch</span> (IOException e) &#123;</span><br><span class="line">                log.warn(<span class="string">&quot;&#123;&#125;,&#123;&#125; sse 发送异常：&#123;&#125;&quot;</span>, baseNl2SqlReq.getTraceId(), baseNl2SqlReq.getRequestId(), e.getMessage(), e);</span><br><span class="line">            &#125;</span><br><span class="line">            emitter.complete();</span><br><span class="line">        &#125;</span><br><span class="line">    &#125;);</span><br><span class="line"></span><br><span class="line">    <span class="keyword">return</span> emitter;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure><p>核心功能： getBaseNl2SqlReq()</p><h2 id="其他模式：-web-api-v1-gpt-queryAgentStreamIncr"><a href="#其他模式：-web-api-v1-gpt-queryAgentStreamIncr" class="headerlink" title="其他模式： &#x2F;web&#x2F;api&#x2F;v1&#x2F;gpt&#x2F;queryAgentStreamIncr"></a>其他模式： &#x2F;web&#x2F;api&#x2F;v1&#x2F;gpt&#x2F;queryAgentStreamIncr</h2>]]></content>
-    
-    
-      
-      
-    <summary type="html">&lt;h2 id=&quot;智能问数：-data-chatQuery&quot;&gt;&lt;a href=&quot;#智能问数：-data-chatQuery&quot; class=&quot;headerlink&quot; title=&quot;智能问数： &amp;#x2F;data&amp;#x2F;chatQuery&quot;&gt;&lt;/a&gt;智能问数： &amp;#x2F;dat</summary>
       
     
     
@@ -89,9 +111,9 @@
     <link href="https://roverkai.github.io/2025/10/17/data%20agent/"/>
     <id>https://roverkai.github.io/2025/10/17/data%20agent/</id>
     <published>2025-10-17T05:56:16.000Z</published>
-    <updated>2025-10-25T07:06:37.386Z</updated>
+    <updated>2025-10-28T07:06:47.760Z</updated>
     
-    <content type="html"><![CDATA[<p>data agent分享</p><p>项目分享</p><p>比赛经验分享</p>]]></content>
+    <content type="html"><![CDATA[<p>data agent分享</p><p>项目分享</p><p>比赛经验分享</p><p>团队协作、代码学习</p><p>部署、流程、做2开、技术展用了哪些技术、仓库地址</p>]]></content>
     
     
       
@@ -99,6 +121,8 @@
     <summary type="html">&lt;p&gt;data agent分享&lt;/p&gt;
 &lt;p&gt;项目分享&lt;/p&gt;
 &lt;p&gt;比赛经验分享&lt;/p&gt;
+&lt;p&gt;团队协作、代码学习&lt;/p&gt;
+&lt;p&gt;部署、流程、做2开、技术展用了哪些技术、仓库地址&lt;/p&gt;
 </summary>
       
     
